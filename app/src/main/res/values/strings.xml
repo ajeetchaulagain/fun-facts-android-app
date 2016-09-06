@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestProject</string>
+    <string name="fun_facts">Ant Stretch after they wake up in the morning</string>
+    <string name="fun_fact_button">Show Fun Facts</string>
+</resources>

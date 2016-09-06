@@ -7,20 +7,19 @@ import java.util.Random;
  */
 public class FactBook {
 
+    private String[] facts = {
+            "Rats and horses can't vomit",
+            "The cigarette lighter was invented before the match.",
+            "Like fingerprints, everyone's tongue print is different.",
+            "Wearing headphones for just an hour will increase the bacteria in your ear by 700 times",
+            "Sloths take two weeks to digest their food"
+    };
 
     public String getFact(){
 
-        String[] facts = {
-                "Rats and horses can't vomit",
-                "The cigarette lighter was invented before the match.",
-                "Like fingerprints, everyone's tongue print is different.",
-                "Wearing headphones for just an hour will increase the bacteria in your ear by 700 times",
-                "Sloths take two weeks to digest their food"
-        };
-
         Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(4);
-
         return facts[randomNumber];
+
     }
 }

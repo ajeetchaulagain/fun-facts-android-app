@@ -9,17 +9,16 @@ import java.util.Random;
  */
 public class ColorStore {
 
+    private String[] colors = {
+
+            "#225378",
+            "#EB7F00",
+            "#BEDB39",
+            "#FFE11A",
+            "#004358"
+    };
 
     public int getColor(){
-
-        String[] colors = {
-                "#225378",
-                "#EB7F00",
-                "#BEDB39",
-                "#FFE11A",
-                "#004358"
-        };
-
 
         Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(4);
